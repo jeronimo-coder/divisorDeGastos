@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="inputs">
+            <h3>Monto por persona</h3>
+            <input class="informacion" type="text" placeholder="Nombre" id="nombre">
+            <br>
+            <br>
+            <input class="informacion" type="number" name="" id="monto" placeholder="Monto">
+            <br>
+            <br>
+            <input class="agregar" type="button" value="Agregar" onclick="mostrarInfo()">
+        </div>
+        <hr>
+        <div id="montos">
+            
+        </div>
+        <hr>
+        <div class="resultados">
+            <p>Monto total: $<p id="total"></p></p>
+            <br>
+            <p>Cada uno paga: $<p id="cadaUno"></p></p>
+        </div>
+        <input class="agregar" type="button" value="Reiniciar" onclick="reiniciar()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.conteiner{
+    width: 350px;
+    height: auto;
+    border: solid 1px rgb(172, 172, 172);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E3FCBF;
+}
+
+#montos{
+    min-height: 100px;
+}
+
+.resultados p{
+    font-weight: bold;
+    display: inline-block;
+}
+
+#nombre, #monto{
+    width: 250px;
+    text-align: center;
+}
+
+.inputs{
+    /* background-color: #00FFAB; */
+    width: auto;
+    padding: 5px;
+}
+
+.agregar{
+    background-color: #00FFAB;
+    border: 1px solid #B8F1B0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.informacion{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 30px;
+}
